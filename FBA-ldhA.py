@@ -178,7 +178,7 @@ with model:
     
     
     
-# Simulation 4 Gene Deletions
+# Simulation 5 Gene Deletions
 with model:
     model.genes.get_by_id('b1380').knock_out()
     solution1 = model.optimize()
@@ -198,7 +198,7 @@ with model:
     
     
     
-# Simulation 5 Gene Deletions
+# Simulation 6 Gene Deletions
 with model:
     model.genes.get_by_id('b1380').knock_out()
     solution1 = model.optimize()
